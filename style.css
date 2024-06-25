@@ -1,0 +1,79 @@
+*
+{
+    margin:0;
+    padding:0;
+    position: relative;
+}
+h2 a{
+    
+    margin-left: 10px;
+    color: green;
+    
+}
+h2 {
+    position: absolute;
+    top: 0; /* Place at the top of the viewport */
+    left: 50%; /* Center horizontally relative to itself */
+    transform: translateX(-50%); /* Offset to center within viewport */
+    /* Additional styles for the heading (optional) */
+  }
+
+a:hover {
+    color: red;
+}
+
+table{
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding:20px 30px;
+    width: 500px;
+    margin-left: 40px;
+    top: 10%; /* Place at the top of the viewport */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally relative to itself */
+ 
+}
+
+td {
+    width: 150px;
+    height:40px; /* Adjust width as needed */
+    border: 2px solid white;
+    padding-left:10px;
+    color: white;
+  }
+
+.n1, #n1{
+    background-color: rgb(32, 135, 133);
+
+}
+.n2, #n2{
+    background-color: rgb(162, 45, 45);
+
+}
+.n3, #n3{
+    background-color: aqua;
+}
+
+.n4, #n4{
+    background-color: blue;
+}
+
+.n5, #n5{
+    background-color:rgb(3, 74, 3);
+}
+
+.n6, #n6{
+    background-color:#460c19;
+}
+
+.n7, #n7{
+    background-color:rgba(252, 168, 0, 0.986);
+}
+
+.n8, #n8{
+    background-color: blue;
+}
+
+.n9, #n9{
+    background-color:rgb(226, 107, 226);
+}
